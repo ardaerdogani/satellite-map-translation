@@ -1,0 +1,24 @@
+{
+  "log_path": "/home/arderd/tmp/outputs/pix2pix_sat2map/logs/train_log.jsonl",
+  "loss_keys": [
+    "loss_g",
+    "loss_d",
+    "loss_g_gan",
+    "loss_g_l1",
+    "val_l1"
+  ],
+  "quality_keys": [
+    "val_psnr"
+  ],
+  "loss_plot_written": true,
+  "quality_plot_written": true,
+  "plateau": {
+    "metric": "val_l1",
+    "mode": "min",
+    "best_epoch": 10,
+    "best_value": 0.08976418254514264,
+    "trigger_epoch": 11,
+    "patience": 12,
+    "min_delta": 0.0005
+  }
+}
